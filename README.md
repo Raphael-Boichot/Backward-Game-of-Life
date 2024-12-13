@@ -14,4 +14,4 @@ As genetic algorithm and the Game of Life are bioinspired, it's a bit like a Gam
 - see the magic happening. You can take a walk outside, it's long to converge;
 - run the scrit to animate all that shit and impress your friends on Reddit with the work of others.
 
-It's all that simple !
+It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence. It is a quite reliable way to produce entropy, like the Bitcoin, but without the crumbs.
