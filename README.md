@@ -1,4 +1,6 @@
-# Can we go back in time with the Game of life ?
+# The Game of Life, but in reverse !
+
+## Can we go back in time with the Game of life ?
 The response is yes, but probably not in a single piece and with an infinite amount of energy, so not exactly like in Star Trek.
 
 Joke apart, the [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a mathematical amusement sufficiently well known to avoid me to write a story about it. Long story short, it's fully deterministic in a forward way with ultra simple rules, but guessing a configuration in backward is nearly impossible as those simple rules destroy information at each algorithm step. Or nearly, as it is always possible to try any previous combination of dead and living cells until the next step is the configuration you wish (aka stupid brute force method).
