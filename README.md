@@ -17,3 +17,13 @@ As genetic algorithm and the Game of Life are bioinspired, it's a bit like a Gam
 - run the script to animate all that shit and impress your friends on Reddit with the work of others.
 
 It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence. It is a quite reliable way to produce entropy, like the Bitcoin, but without the crumbs.
+
+## Example of result (with 25 steps backward in time)
+
+**Starting configuration to guess**
+
+
+**Algorithm convergence***
+
+
+**End result**
