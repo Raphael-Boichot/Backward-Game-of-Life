@@ -14,6 +14,6 @@ As genetic algorithm and the Game of Life are bioinspired, it's a bit like a Gam
 ## How does it works ?
 - draw the future configuration in binary with paint for example, set the number of backward steps and run the code;
 - see the magic happening. You can take a walk outside, it's long to converge;
-- run the scrit to animate all that shit and impress your friends on Reddit with the work of others.
+- run the script to animate all that shit and impress your friends on Reddit with the work of others.
 
 It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence. It is a quite reliable way to produce entropy, like the Bitcoin, but without the crumbs.
