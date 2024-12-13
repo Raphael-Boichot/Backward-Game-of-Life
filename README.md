@@ -19,10 +19,10 @@ Both softwares can run the code natively.
 
 ## How does it works ?
 - draw the future configuration in binary with paint for example, set the number of backward steps and run the code;
-- see the magic happening. You can take a walk outside, it's long to converge. The more the shape to mimic is close to Game of Life usual patterns, the better it will work. The end solution could even be exact in some cases;
-- run the script to animate all that shit and impress your friends on Reddit with the work of others.
+- see the magic happening. You can take a walk outside, it's long to converge. The more the present shape to mimic is close to Game of Life usual patterns, the better it will work. The end solution could even be exact in some cases (real present), but generally only an alternative present is found;
+- run the script to animate all that shit and impress your friends on Reddit with the work of others. Don't be shy, attribute this to yourself.
 
-It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence. It is a quite reliable way to produce entropy, like the Bitcoin, but without the crumbs.
+It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence. It is also a quite reliable way to produce entropy, like the Bitcoin, but without the crumbs.
 
 ## Example of result (with 25 steps backward in time)
 
