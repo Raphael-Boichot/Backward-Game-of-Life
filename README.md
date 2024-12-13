@@ -11,9 +11,15 @@ The game here is simple: start from a binary image (configuration in the future)
 
 As genetic algorithm and the Game of Life are bioinspired, it's a bit like a Game of Life within the Game of life, sadly the concept has [already been taken](https://www.youtube.com/watch?v=xP5-iIeKXE8). To my knowledge, this approach was never tried.
 
+## Requirements
+- Matlab R2023b with Parallel Computing toolbox or higher
+- GNU Octave 9.2.0 or higher
+
+Both softwares can run the code natively.
+
 ## How does it works ?
 - draw the future configuration in binary with paint for example, set the number of backward steps and run the code;
-- see the magic happening. You can take a walk outside, it's long to converge;
+- see the magic happening. You can take a walk outside, it's long to converge. The more the shape to mimic is close to Game of Life usual patterns, the better it will work. The end solution could even be exact in some cases;
 - run the script to animate all that shit and impress your friends on Reddit with the work of others.
 
 It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence. It is a quite reliable way to produce entropy, like the Bitcoin, but without the crumbs.
@@ -23,7 +29,7 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 **Starting configuration to guess**
 
 
-**Algorithm convergence***
+**Algorithm convergence during 50k steps**
 
 
 **End result**
