@@ -11,9 +11,9 @@ target_mp4_file='Topology.mp4';       %target file for mp4, keep all image
 target_gif_file='Topology.gif';       %target file for animated gif
 target_starting_file='Best_start.png' %source file for animation
 target_game_evolution='Animation.gif' %source file for animation
-epoch_number = 25;                    %number of epoc to consider in animation
+epoch_number = 25;                    %number of epoch to consider in animation
 gif_deadtime=0.1;                     %delay is seconds between pictures for animated gifs
-gif_skip=1;                           %keep every 1 out of gif_skip image for gif
+gif_skip=2;                           %keep every 1 out of gif_skip image for gif
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 vidfile = VideoWriter(target_mp4_file,'MPEG-4');

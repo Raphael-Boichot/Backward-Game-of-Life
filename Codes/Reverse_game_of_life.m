@@ -65,6 +65,7 @@ for counter=1:1:50000
     fontsize(16,"points")
     drawnow
     if not(fitness_hist(end)==fitness_hist(end-1))
+        disp('New optimum found')
         saveas(gcf,['Figure\Figure_',num2str(counter,'%06.f')],'png');
     end
     imwrite(space_after,'Best_end.png')
