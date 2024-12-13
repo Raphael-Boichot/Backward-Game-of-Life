@@ -15,7 +15,7 @@ As genetic algorithm and the Game of Life are bioinspired, it's a bit like a Gam
 - Matlab R2023b with Parallel Computing toolbox or higher
 - GNU Octave 9.2.0 or higher
 
-Both softwares can run the code natively.
+Both softwares can run the code natively. GNU Octave is however slow as shit compared to Matlab for this problem.
 
 ## How does it works ?
 - draw the future configuration in binary with paint for example, set the number of backward steps and run the code;
