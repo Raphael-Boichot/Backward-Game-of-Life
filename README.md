@@ -27,16 +27,21 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 ## Example of result (with 25 steps backward in time)
 
 **Present configuration to guess from the past**
+
 ![](/Images/Target_big.png)
 
 **Algorithm convergence during around 1500 steps**
+
 ![](/Images/Topology.gif)
 
 **Best configuration found in the past**
+
 ![](/Images/Best_start.png)
 
 **From past to alternative present**
+
 ![](/Images/Animation.gif)
 
 **Alternative present**
+
 ![](/Images/Best_end.png)
