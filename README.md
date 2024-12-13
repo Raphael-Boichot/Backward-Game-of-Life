@@ -42,6 +42,6 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 
 ![](/Images/Animation.gif)
 
-**Alternative present**
+**Best alternative present found**
 
 ![](/Images/Best_end.png)
