@@ -32,11 +32,11 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 
 ![](/Images/Topology.gif)
 
-**Best configuration found in the past**
+**Best initial configuration found in the past**
 
 ![](/Images/Best_start.png)
 
-**From past to alternative present**
+**Animation from past to alternative present**
 
 ![](/Images/Animation.gif)
 
