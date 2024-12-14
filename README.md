@@ -25,7 +25,7 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 
 ## Example of result (with 25 steps backward in time)
 
-**Present configuration to guess from the past**
+**Future configuration to target from the past**
 
 ![](/Images/Target_big.png)
 
