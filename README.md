@@ -3,7 +3,7 @@
 ## Can we go back in time with the Game of life ?
 The response is yes, but with sweat and blood.
 
-Joke apart, the [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a mathematical amusement sufficiently well known to avoid me to write a story about it. Long story short, it's fully deterministic in a forward way with ultra simple rules, but guessing a configuration in backward is surprisingly difficult as those same simple rules destroy information at each step. It is of course possible to try any previous combination of dead and living cells until the next step matches the configuration you wish (aka stupid brute force method).
+The [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a mathematical amusement sufficiently well known to avoid me to write a story about it. Long story short, it's fully deterministic in a forward way with ultra simple rules, but guessing a configuration in backward is surprisingly difficult as those same simple rules destroy information at each step. It is of course possible to try any previous combination of dead and living cells until the next step matches the configuration you wish (aka stupid brute force method).
 
 Mathematics are however ruthless and the configuration space becomes rapidely impossible to explore if the map size and/or the number of backward steps is big enough. The problem is higly discrete, with a huge number of dimensions, but fairly simple from an algorithm point of view. This is a perfect problem for a class of algorithm that eats dimensions for the breakfast and break any discrete problem without pain (or near): the [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm).
 
