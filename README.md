@@ -1,4 +1,4 @@
-# The Game of Life, but in reverse !
+# The Game of Life, but backward in time !
 
 ## Can we go back in time with the Game of life ?
 The response is yes, but with sweat and blood.
