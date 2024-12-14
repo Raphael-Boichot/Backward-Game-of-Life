@@ -1,7 +1,7 @@
 # The Game of Life, but backward in time !
 
 ## But first, can we go back in time with the Game of life ?
-The response is yes, but with sweat and blood.
+The response is yes, but with sweat and blood. And the result is not (and can't be) perfect.
 
 The [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a mathematical amusement sufficiently well known to avoid me to write a story about it. Long story short, it's fully deterministic in a forward way with ultra simple rules, but guessing a configuration in backward is surprisingly difficult as those same simple rules destroy information at each step. It is of course always possible to go back in time by trying any possible combination of dead and living cells until the next step matches the configuration you wish, also known as but brute force method.
 
