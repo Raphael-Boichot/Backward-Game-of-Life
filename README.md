@@ -28,7 +28,7 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 
 ![](/Images/Target_big.png)
 
-**Algorithm convergence during around 1500 steps**
+**Algorithm convergence during around 10,000 steps**
 
 ![](/Images/Topology.gif)
 
