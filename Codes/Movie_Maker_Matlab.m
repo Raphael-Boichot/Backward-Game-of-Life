@@ -7,14 +7,25 @@ close all
 %User parameters
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 target_directory='Figure/';           %source directory to process
-target_mp4_file='Topology.mp4';       %target file for mp4, keep all image
-target_gif_file='Topology.gif';       %target file for animated gif
+target_mp4_file='Images/Topology.mp4';       %target file for mp4, keep all image
+target_gif_file='Images/Topology.gif';       %target file for animated gif
 target_starting_file='Best_start.png' %source file for animation
-target_game_evolution='Animation.gif' %source file for animation
+target_game_evolution='Images/Animation.gif' %source file for animation
 epoch_number = 25;                    %number of epoch to consider in animation
 gif_deadtime=0.1;                     %delay is seconds between pictures for animated gifs
 gif_skip=2;                           %keep every 1 out of gif_skip image for gif
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+try
+    rmdir('Images','s');
+catch
+    disp('Folder not present')
+end
+mkdir('Images');
+
+imwrite(imresize(imread('Best_end.png'),8,'nearest'), './Images/Best_end.png')
+imwrite(imresize(imread('Best_start.png'),8,'nearest'), './Images/Best_start.png')
+imwrite(imresize(imread('Target.png'),8,'nearest'), './Images/Target.png')
 
 vidfile = VideoWriter(target_mp4_file,'MPEG-4');
 open(vidfile);
@@ -45,6 +56,7 @@ DNA=reshape(space_after,1,[]);
 frame=cat(3,target,target,target);
 [imind,map] = rgb2ind(cat(3,imresize(frame,8,'nearest')),256);
 imwrite(imind,map,target_game_evolution,'gif', 'Loopcount',inf,'DelayTime',gif_deadtime);
+
 for i=1:1:epoch_number
     [space_after]=game_of_life(DNA, i, height,width);
     space_after=(space_after==0)*0+(space_after==1)*255;

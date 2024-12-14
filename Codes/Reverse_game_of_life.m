@@ -22,13 +22,13 @@ best_population=500;
 crossover_probability=0.05;
 mutation_probability=0.005;
 
-DNA_bank= rand(population,height*width)>0.5;
+DNA_bank= rand(population,height*width)>0.2;
 new_DNA_bank=zeros(population,height*width);
 fitness=zeros(population,1);
 pool=zeros(height, width, population);
 fitness_hist=[1e9];
 
-for counter=1:1:50000
+for counter=1:1:10000
     tic
     parfor i=1:population
         pool(:,:,i)=game_of_life(DNA_bank(i,:), epoch, height,width);
