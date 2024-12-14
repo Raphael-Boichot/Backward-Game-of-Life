@@ -13,7 +13,7 @@ As genetic algorithm and the Game of Life are bioinspired, it's a bit like a Gam
 
 ## Requirements
 - Matlab R2023b with Parallel Computing toolbox or higher
-- 
+
 GNU Octave is just not performing enough to handle that problemn, sorry dudes.
 
 ## How does it works ?
