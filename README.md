@@ -37,6 +37,8 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 
 ![](/Images/Best_start.png)
 
+The best initial configuration is surprisingly boring and random. Most of the cells will die immediately...
+
 **Animation from past to alternative present**
 
 ![](/Images/Animation.gif)
