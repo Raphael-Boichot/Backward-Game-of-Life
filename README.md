@@ -3,7 +3,7 @@
 ## But first, can we go back in time with the Game of life ?
 The response is yes, but with sweat and blood. And the result is not (and can't be) perfect most of the time.
 
-The [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a mathematical amusement sufficiently well known to avoid me to write a story about it. Long story short, it's fully deterministic in a forward way with ultra simple rules, but guessing a configuration in backward is surprisingly difficult as those same simple rules destroy information at each step. It is of course always possible to go back in time by trying randomly any possible combination of dead and living cells until the next step matches the configuration you wish, method known as dumb brute force method (or Monté Carlo if you want to sound more professionnal).
+The [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a mathematical amusement sufficiently well known to avoid me to write a story about it. Long story short, it's fully deterministic in a forward way with ultra simple rules, but guessing a configuration in backward is surprisingly difficult as those same simple rules destroy information at each step. It is of course always possible to go back in time by trying randomly any possible combination of dead and living cells until the next step matches the configuration you wish, method known as dumb brute force method (or Monté Carlo if you want to sound more sophisticated).
 
 Mathematics are however ruthless and the configuration space is incredibly vaste to explore if the map size and/or the number of backward steps is large enough. The problem is higly discrete, with a huge number of dimensions, but fairly simple from an algorithm point of view. This is a perfect problem for a class of algorithm that solves high dimensions / discrete problems without pain (or near): the [genetic algorithms](https://en.wikipedia.org/wiki/Genetic_algorithm).
 
@@ -40,6 +40,8 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 **Animation from past to alternative present**
 
 ![](/Images/Animation.gif)
+
+It looks like the most successfull path consists in destroying most cells from the beginning, just keeping some seeds and let them evolve. I don't know if it's just an algorithm artifact or some interesting discovery.
 
 **Best alternative present found**
 
