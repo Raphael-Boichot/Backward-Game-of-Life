@@ -49,4 +49,4 @@ It looks like the most successfull path consists in destroying most cells from t
 
 ![](/Images/Best_end.png)
 
-Inverting the Game of Life is quite a wild territory at the moment but I can guess that not any present configuration can be obtained from the past, though I'm far too stupid to demontrate this (despite Game of Life being a Turing machine in principle). I also feel like the more steps in backward, the more difficult the problem becomes. As I said, it is also fairly easy to trace back [known patterns](https://conwaylife.com/wiki/Category:Patterns) compared to random topologies.
+Inverting the Game of Life is quite a wild territory at the moment but I can guess that not any present configuration can be obtained from the past, though I'm far too stupid to demontrate this (despite Game of Life being a Turing machine in principle). Maybe with an infinite computational time... I also feel like the more steps in backward, the more difficult the problem becomes. As I said, it is also fairly easy to trace back [known patterns](https://conwaylife.com/wiki/Category:Patterns) compared to random topologies.
