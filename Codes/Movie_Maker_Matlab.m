@@ -57,7 +57,7 @@ frame=cat(3,target,target,target);
 [imind,map] = rgb2ind(cat(3,imresize(frame,8,'nearest')),256);
 imwrite(imind,map,target_game_evolution,'gif', 'Loopcount',inf,'DelayTime',gif_deadtime);
 
-for i=1:1:epoch_number
+for i=1:1:epoch_number*2
     [space_after]=game_of_life(DNA, i, height,width);
     space_after=(space_after==0)*0+(space_after==1)*255;
     frame=cat(3,space_after,space_after,space_after);
