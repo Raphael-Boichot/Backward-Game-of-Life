@@ -29,7 +29,7 @@ It's all that simple ! The code is stupidely short and simple but should noticea
 
 ![](/Images/Target_big.png)
 
-**Genetic Algorithm convergence during around 10,000 steps**
+**Genetic Algorithm convergence during around 100,000 steps**
 
 ![](/Images/Topology.gif)
 
