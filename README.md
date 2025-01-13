@@ -1,7 +1,7 @@
 # The Game of Life, but backward in time !
 
 ## But first, can we go back in time with the Game of life ?
-The response is yes, but with sweat and blood. And the result is not (and can't be) perfect most of the time.
+The response is yes, but with sweat and blood. And the result is not (and probably can't be) perfect without a huge amount of energy consumed in the process.
 
 The [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a mathematical amusement sufficiently well known to avoid me to write a story about it. Long story short, it's fully deterministic in a forward way with ultra simple rules, but guessing a configuration in backward is surprisingly difficult as those same simple rules destroy information at each step. It is of course always possible to go back in time by trying randomly any possible combination of dead and living cells until the next step matches the configuration you wish, method known as dumb brute force method (or Monté Carlo if you want to sound more sophisticated).
 
@@ -21,7 +21,7 @@ GNU Octave is just not able to handle that problem as it (it stays busy at the f
 - see the magic happening. You can take a walk outside and see some friends if you have some, it's long to converge. Staring at the screen is anyway a fascinating activity. The more the present shape to mimic is close to Game of Life usual patterns, the better it will work. The end solution could even be exact in some cases (real present), but generally only an alternative present is found;
 - run the post processing script to animate all that shit and impress your virtual friends on Reddit with the work of others. Don't be shy, attribute this to yourself, I won't be the kind of asshole to harass you online.
 
-It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence and high hunger for processor power. It is in consequence quite a reliable way to make heat and entropy, like the Bitcoin, but without the crumbs at the end. I voluntarily used the kind of aggressive Matlab syntax that solves enormous matrix-based problems within a single line of code because I like to impress people. Of course the code is not commented to stay as cryptic as shit like 99% of stuff on Github.
+It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence and ridiculous hunger for processor power. It is in consequence quite a reliable way to make heat and entropy, like the Bitcoin, but without the crumbs at the end. I voluntarily used the kind of aggressive Matlab syntax that solves enormous matrix-based problems within a single line of code because I like to impress people. Of course the code is not commented to stay as cryptic as shit like 99% of stuff on Github.
 
 ## Example of result (with 25 steps backward in time)
 
