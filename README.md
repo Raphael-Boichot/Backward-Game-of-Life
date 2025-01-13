@@ -19,9 +19,9 @@ GNU Octave is just not able to handle that problem (it stays busy at the first s
 ## How does it works ?
 - draw a future configuration in binary with MS paint for example (it has to be a high tech drawing software), set the number of backward steps and run the code;
 - see the magic happening. You can take a walk outside and see some friends if you have some, it's long to converge. The more the present shape to mimic is close to Game of Life usual patterns, the better it will work. The end solution could even be exact in some cases (real present), but generally only an alternative present is found;
-- run the post processing script to animate all that shit and impress your virtual friends on Reddit with the work of others. Don't be shy, attribute this to yourself, I won't harass you online.
+- run the post processing script to animate all that shit and impress your virtual friends on Reddit with the work of others. Don't be shy, attribute this to yourself, I won't be the kind of fucker to harass you online.
 
-It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence. It is also quite a reliable way to produce entropy, like the Bitcoin, but without the crumbs at the end. I voluntarily used the kind of aggresive Matlab syntax that solves enormous matrix-based problems within a single line of code because I like to impress people. Of course the code is not commented to stay as cryptic as possible as 99% of stuff on Github.
+It's all that simple ! The code is stupidely short and simple but should noticeably contribute to global warming thanks to its sluggish convergence and high hunger for processors. It is in consequence quite a reliable way to make heat and entropy, like the Bitcoin, but without the crumbs at the end. I voluntarily used the kind of aggresive Matlab syntax that solves enormous matrix-based problems within a single line of code because I like to impress people. Of course the code is not commented to stay as cryptic as shit as 99% of stuff on Github.
 
 ## Example of result (with 25 steps backward in time)
 
