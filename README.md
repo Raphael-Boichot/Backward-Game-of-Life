@@ -15,6 +15,7 @@ As genetic algorithm and the Game of Life are bioinspired, it's a bit like a Gam
 
 ## Requirements
 - Matlab R2023b with Parallel Computing toolbox or higher
+- A bunch of processors, the more the better
 
 GNU Octave is just not able to handle that problem as it (it stays busy at the first step), sorry if you can't afford / crack the Matlab licence.
 
